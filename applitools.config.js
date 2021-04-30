@@ -1,4 +1,4 @@
-const TEAM_NAME = process.env.TEAM_NAME || '[Team Name]';
+const TEAM_NAME = process.env.CYPRESS_TEAM_NAME || '[Team Name]';
 
 module.exports = {
 	showLogs: false,
