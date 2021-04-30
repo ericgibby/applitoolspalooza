@@ -5,11 +5,11 @@
 	"main": "index.js",
 	"scripts": {
 		"TraditionalSuiteV1": "env-cmd cypress open --config baseUrl=https://demo.applitools.com/hackathon.html ./TraditionalSuite.spec.ts",
-		"TraditionalSuiteV2": "env-cmd cypress open --config baseUrl=https://demo.applitools.com/hackathonV2.html ./TraditionalSuite.spec.js",
-		"VisualAITestSolutionV1": "env-cmd cypress open --config baseUrl=https://demo.applitools.com/hackathon.html ./VisualAITestSolution.spec.js",
-		"VisualAITestSolutionV2": "env-cmd cypress open --config baseUrl=https://demo.applitools.com/hackathonV2.html ./VisualAITestSolution.spec.js",
-		"VisualAITestV1": "env-cmd cypress open --config baseUrl=https://demo.applitools.com/hackathon.html ./VisualAITest.spec.js",
-		"VisualAITestV2": "env-cmd cypress open --config baseUrl=https://demo.applitools.com/hackathonV2.html ./VisualAITest.spec.js"
+		"TraditionalSuiteV2": "env-cmd cypress open --config baseUrl=https://demo.applitools.com/hackathonV2.html ./TraditionalSuite.spec.ts",
+		"VisualAITestSolutionV1": "env-cmd cypress open --config baseUrl=https://demo.applitools.com/hackathon.html ./VisualAITestSolution.spec.ts",
+		"VisualAITestSolutionV2": "env-cmd cypress open --config baseUrl=https://demo.applitools.com/hackathonV2.html ./VisualAITestSolution.spec.ts",
+		"VisualAITestV1": "env-cmd cypress open --config baseUrl=https://demo.applitools.com/hackathon.html ./VisualAITest.spec.ts",
+		"VisualAITestV2": "env-cmd cypress open --config baseUrl=https://demo.applitools.com/hackathonV2.html ./VisualAITest.spec.ts"
 	},
 	"author": "",
 	"license": "ISC",
