@@ -1,15 +1,15 @@
 /// <reference types="cypress" />
-const TEAM_NAME = process.env.TEAM_NAME || '[Team Name]';
+const TEAM_NAME = process.env.TEAM_NAME ?? '[Team Name]';
 
 describe('Visual Validation Applitools', () => {
 	before(function () {
-		cy.visit(Cypress.config('baseUrl'));
+		cy.visit(Cypress.config('baseUrl') as string);
 	});
 
 	beforeEach(function () {
 		cy.eyesOpen({
 			appName: `ApplitoolsPalooza - ${TEAM_NAME}`,
-			testName: this.currentTest.title,
+			testName: this.currentTest?.title,
 		});
 	});
 
